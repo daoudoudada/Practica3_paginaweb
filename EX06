@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Page Title</title>
+</head>
+<body>
+    <header>
+        <fieldset>
+            <legend>
+                <tr>
+                    <td> Titulo:</td>
+                    <td><input type="text" name="Titulo"></td>
+                </tr>
+                <tr>
+                    <td> Director</td>
+                    <td><input type="text" name="Director"></td>
+                </tr>
+                <tr>
+                    <td> Fecha de estreno:</td>
+                    <td><input type="date" name="Fecha"></td>
+                </tr>
+                <tr>
+                    <td> Version</td>
+                    <td>
+                        <input type="Radio" value="IMAX">
+                        <input type="radio" value="3D">
+                        <input type="radio" value="Full HD">
+                    </td>
+                </tr>
+            </legend>
+        </fieldset>
+    </header>
