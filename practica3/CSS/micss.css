@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100&family=Maven+Pro:wght@400;700&display=swap&#39;');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;400&family=Maven+Pro:wght@400;700&display=swap&#39;');
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color:#169CA4;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+.game {
+    background-color: #C6E5FD;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    background-color: #F7C620;
+    padding: 10px 0;
+    text-align: center;
+}
+
+nav a {
+    color: black;
+    text-decoration: none;
+    margin: 0 15px;
+}
+a:hover {
+    color: #2706F9; 
+}
+
+.juego {
+background-color: white;
+border-radius: 10px;
+box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+transition: box-shadow 0.3s ease;
+}
+
+.juego:hover {
+box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+}
+
+.juego img {
+max-width: 100%;
+border-radius: 10px;
+margin-bottom: 10px;
+}
+
+.juego h2 {
+font-size: 1.5em;
+}
+
+.juego p {
+color: #555;
+}
+.juegos {
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-gap: 10px;
+}
+.cuadro {
+width: 500px;
+height: fit-content;
+border: 2px dashed #FBB40F; 
+}
+.info-button{
+    text-align:right;
+    align-self: flex-end;
+    background-color: #FBB40F;
+    padding: 5px 10px;
+
+
+}
+.titulo {
+    text-align: center;
+}
+.contenedorgeneral {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+aside {
+    width: 20%;
+    background-color: #75b4f0;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    border: 2px dotted black; 
+
+}
+.noticias {
+    
+    width: 75%;
+    flex-wrap:2;
+    }
+.news {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+
+}
+.noticia{
+    width: 45%;
+    margin: 10px;
+    border: 2px solid #ddd;
+    border-radius: 10px;
+    border: 2px solid #75b4f0; 
+    height: fit-content;
+
+
+}
+.divider {
+    margin: 10px 0;
+    height: 3px; /* Cambia el tamaño de la línea divisoria */
+    background-color: #ffc400; /* Cambia el color de la línea divisoria */
+}
+.botom{
+    top: 10px;
+    right: 10px; 
+    text-align:right;
+    align-self: right;
+    background-color: #FBB40F;
+    padding: 5px 10px;
+  
+}
+.noticia img {
+    position: relative;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    top: -10px;
+    }
+    
