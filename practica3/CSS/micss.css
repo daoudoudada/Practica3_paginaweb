@@ -11,14 +11,9 @@ header {
     padding: 10px 0;
     text-align: center;
 }
-.game {
-    background-color: #C6E5FD;
-    padding: 20px;
-    border-radius: 5px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
 
 nav {
+    font-family: 'Kanit';
     background-color: #F7C620;
     padding: 10px 0;
     text-align: center;
@@ -55,28 +50,46 @@ font-size: 1.5em;
 }
 
 .juego p {
-color: #555;
+color: #181616;
 }
 .juegos {
-display: grid;
-grid-template-columns: repeat(3, 1fr);
-grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
 }
-.cuadro {
-width: 500px;
-height: fit-content;
-border: 2px dashed #FBB40F; 
+.juego{
+    width: 31%;
+    margin: 10px;
+    border: 2px dashed #FBB40F; 
+    border-radius: 10px;
+    height: fit-content;
+
+
 }
 .info-button{
-    text-align:right;
     align-self: flex-end;
     background-color: #FBB40F;
     padding: 5px 10px;
-
+    margin:4px;
+    border-radius: 5px;
+    bottom:10px;
+    right:10px;
 
 }
-.titulo {
-    text-align: center;
+h4 {
+    color: #FFC045; 
+    font-family: 'Kanit';
+    font-size: 22px;
+}
+h3{
+    color: #0c99f7; 
+    font-family: 'Kanit';
+    font-size: 25px;
+}
+h5{
+    color: #000000; 
+    font-family: Arial, sans-serif;
+    font-size: 15px;
 }
 .contenedorgeneral {
     display: flex;
@@ -87,17 +100,16 @@ border: 2px dashed #FBB40F;
 
 aside {
     width: 20%;
-    background-color: #75b4f0;
-    color: white;
+    background-color: #b7d2ee;
     padding: 10px;
     border-radius: 10px;
-    border: 2px dotted black; 
-
+    border: 3px dotted black; 
+    text-align:center;
 }
 .noticias {
     
     width: 75%;
-    flex-wrap:2;
+    flex-wrap:wrap;
     }
 .news {
     display: flex;
@@ -117,8 +129,8 @@ aside {
 }
 .divider {
     margin: 10px 0;
-    height: 3px; /* Cambia el tamaño de la línea divisoria */
-    background-color: #ffc400; /* Cambia el color de la línea divisoria */
+    height: 3px; 
+    background-color: #ffc400; 
 }
 .botom{
     top: 10px;
@@ -130,9 +142,80 @@ aside {
   
 }
 .noticia img {
+    width: 100%;
     position: relative;
     border-radius: 10px;
     margin-bottom: 10px;
     top: -10px;
     }
     
+
+    .contenedor-imagenes {
+        text-align: center;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    
+    .imagen-redonda {
+        display: inline-block;
+        margin: 40px;
+    }
+    
+    .imagen-circular {
+        width: 120px;
+        height: 120px;
+        overflow: hidden;
+        border-radius: 50%;
+    }
+    
+    .imagen-circular img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+    }
+    footer {
+        background-color: #665959;
+        color: #1b1b1b;
+        padding: 2px;
+    }
+    .adress{
+        text-align: right;
+    }
+    .location-container {
+        text-align: right;
+    }
+    .container {
+        max-width: 960px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+    
+    .videojuegos {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    
+    .videojuego {
+        width: 300px;
+        margin: 20px;
+        padding: 10px;
+        border: 1px solid #ccc;
+        text-align: center;
+    }
+    
+    .videojuego img {
+        max-width: 100%;
+    }
+    
+    .paginacion {
+        margin-top: 20px;
+        text-align: center;
+    }
+    
+    .paginacion button {
+        font-size: 16px;
+        padding: 10px 20px;
+        margin: 0 10px;
+        cursor: pointer;
+    }
